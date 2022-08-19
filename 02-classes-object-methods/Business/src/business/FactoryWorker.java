@@ -1,5 +1,3 @@
 package business;
-
-public class Worker {
-    FactoryWorker worker;
+class FactoryWorker {
 }

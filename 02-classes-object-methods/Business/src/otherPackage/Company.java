@@ -1,2 +1,4 @@
-package otherPackage;public class Company {
+package otherPackage;
+
+public class Company {
 }

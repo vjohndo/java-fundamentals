@@ -1,3 +1,4 @@
-public class Company {
+package business;
 
+public class Company {
 }

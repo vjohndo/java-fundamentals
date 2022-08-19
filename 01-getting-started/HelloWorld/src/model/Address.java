@@ -1,2 +1,5 @@
-package model;public class Address {
+package model;
+
+public class Address {
+
 }

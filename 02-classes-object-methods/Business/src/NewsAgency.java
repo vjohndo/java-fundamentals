@@ -1,2 +1,5 @@
-package PACKAGE_NAME;public class NewsAgency {
+import otherPackage.Company;
+
+public class NewsAgency {
+    Company company;
 }
