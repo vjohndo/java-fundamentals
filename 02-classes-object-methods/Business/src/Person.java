@@ -1,7 +1,10 @@
 import business.Company;
 
 public class Person {
+    private String firstName;
     private String middleName = "Christopher";
+    public String lastName = "Harry";
+    protected String dob;
     public static double PI = 3.14;
     public static int[] nums;
 
@@ -53,6 +56,8 @@ public class Person {
     }
     public static void main(String[] args) {
         Person p1 = new Person();
+
+        p1.firstName = "Jake";
         p1.sayHello();
         p1.saySomething("My groovy message");
         char middleInitial = p1.getMiddleInitial();
