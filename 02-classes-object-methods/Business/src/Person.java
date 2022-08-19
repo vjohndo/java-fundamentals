@@ -2,6 +2,7 @@ import business.Company;
 
 public class Person {
     private String middleName = "Christopher";
+    public static double PI = 3.14;
 
 
     public void sayHello() {
@@ -36,5 +37,6 @@ public class Person {
         System.out.println(p1.add(5,5));
         p1.testArrayMethods(new String[] {"1", "2", "3"});
         p1.testVarargs(3, 5, "one", "two", "three");
+        System.out.println(PI);
     }
 }
